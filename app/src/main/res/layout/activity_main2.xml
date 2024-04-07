@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:collapseColumns="0,1,2"
+    tools:context=".MainActivity2">
+
+<!--    exmaple 3ala l collapse collumn-->
+
+<!--    bade e5fe l 2awl w tene w telet-->
+
+    <TableRow
+        android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02" />
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03" />
+
+    </TableRow>
+    <!--    hala2 7atet 3 button b saf wa7ad-->
+    <!--    hala2 bade zeed saf tene row 2-->
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12" />
+
+    </TableRow>
+
+    <!--    b kel saf fene zeed aye 3ada l bade yeh mn l 2a3mede masn b 2awl row zedet 4 button 4 column -->
+    <!--    b tene row zedt feh 3 button ya3ne 3 column-->
+    <!--    mesh darore ykoun kel l row 3andon nafs l 3adad mn l column-->
+    <!--    ya3ne hala2 fene 2e3tebr heed table 3ebara 3an 2 row b 4 column deymn 3adad l column howe 2akbr 3adad column b l rows le 3ana yehoun -->
+    <!--    ya3ne law saf l 2awl keen b2albo 5 button keen 3ebara 3al 2 row b 5 column l 2no 2akbr 3anad column b 2awl row -->
+
+
+    <!--    hala2 bade zeed ba3d row-->
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/toggle20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ToggleButton>
+
+        <CheckBox
+            android:id="@+id/check21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="checkbox">
+
+        </CheckBox>
+
+    </TableRow>
+
+    <!--    hala2 table 3ebara 3an 2 row w 4 column-->
+
+
+
+    <!--    hala2 fene she 3ande esmo collapsecolumns 3ashen te5fe column mo3ayan-->
+    <!--    collapsecolumn hayde attribute mn tablelayout ya3ne 2awl she b7ota  bte5od 3amoud 2aw aktar -->
+    <!--    iza 7atet     android:collapseColumns="0" 7a ye5fene l column l 2awl number zero l 3amoud 2awl number 0 w l 3amoud le ba3do bye5od ma7alo w ra2mo ya3ne howe bseer 0 le keen ra2mo 1 -->
+    <!--    iza 7atet android:collapseColumns="1" 7a ye5fele l 3amoud tene number 1 w l 3amoud le ba3do bye5od ma7alo w ra2mo ya3ne howe bseer 1-->
+    <!--    iza 7atet collapsecollumn"0" 7a ye5tfe l button00 button10 w l togglebutton-->
+    <!--    fene e5fe 2 column 2aw aktr exmple l 0 wl 1 l 1awal w tene  android:collapseColumns="0,1"-->
+
+
+
+</TableLayout>
+

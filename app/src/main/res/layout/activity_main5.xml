@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+<!--    youn can specify a view in any cell using column attribute in tablelayout -->
+<!--    using attribute in button or any view:-->
+<!--    layoutcolumn="number of column"-->
+<!--    ya3ne bt7out layoutcolumn="" w 2alb l bracket bt7ot number of column lal view w la7alo byet8ayar w byet8ayaro kel l view le 2edemo byet7arako 5etwe-->
+<!--    houn 7atet la 2awl button le ra2mo 00 layout column ya3ne ya button sort be collumn 1 fa sho sar:-->
+<!--    button00 sar column 1,button01 sar be column 2,button02 sar be column 3-->
+<!--    ya3ne kel button le 7ed heed l button le 8ayart ma7lo byet7arak column la 2edem-->
+<!--    ya3ne enta 2oltolo lal button00 rou7 3ala column ra2m 1 bas howe fe wara view 2 button fa hade kamen berou7o wara do8re l2no hone jeyen wara-->
+<!--    masaln l button 11 ma t8ayar ma7alo l2no mesh jeye wara -->
+<!--    e5tesar  android:layout_column="" be7ded l view b2aye column-->
+    <TableRow
+        android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button00"
+            android:layout_width="wrap_content"
+            android:layout_column="1"
+            android:layout_height="wrap_content"
+            android:text="00" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02" />
+
+
+
+    </TableRow>
+    <!--    hala2 7atet 3 button b saf wa7ad-->
+    <!--    hala2 bade zeed saf tene row 2-->
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11" />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/toggle20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ToggleButton>
+
+        <CheckBox
+            android:id="@+id/check21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="checkbox">
+
+        </CheckBox>
+
+    </TableRow>
+
+
+
+
+</TableLayout>

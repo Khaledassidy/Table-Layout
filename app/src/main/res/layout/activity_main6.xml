@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+<!--    layoutweight attribute lal view bzee7 l 3anaser la 2edem bas keef-->
+<!--    ya3ne iza 2oltelo  layoutweight="1" ya3ne ya view 5od l mase7a le 2edemak -->
+<!--    iza keloun waa7d ye5do l mase7a le 2edemoun ad ba3d-->
+<!--    bas l weight mesh nafs stretch column-->
+<!--    l layoutweight btzee7 l view la 2edem baynma l stretchcolumn btzee7 kel l column-->
+<!--    iza mnshof houn l toggle button zey7a la 2edem 2ama l button10 wl button11 ma ze7o law stretchcolumn="1 7a yenze7 togglebutton and button10 and button00-->
+<!--    tal5es:
+         android:layout_weight="1" btemsek l view w btmedo hayde attribute lal views:button,image,checkbox...
+         android:stretchColumns="0" btmsek l column 0 kolo w btmedo hayde attribute la tablelayout
+
+
+-->
+    <TableRow
+        android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button00"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00" />
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="02" />
+
+
+
+    </TableRow>
+    <!--    hala2 7atet 3 button b saf wa7ad-->
+    <!--    hala2 bade zeed saf tene row 2-->
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11" />
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
+            android:id="@+id/toggle20"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+        </ToggleButton>
+
+        <CheckBox
+            android:id="@+id/check21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="checkbox">
+
+        </CheckBox>
+
+    </TableRow>
+
+</TableLayout>

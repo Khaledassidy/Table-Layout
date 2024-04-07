@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".MainActivity10">
+
+<!--wa2t ta3mel span w testa3mel weight badak tentebh la weightsum-->
+<!--    bel row3 ana 3mele weight fa bas 3mlt lal E span mtadet hala2 heye lezm te3tebr l weight 3 bas heye 2
+        so b3del 3al row3 wba3mel weightsum=3
+        3ashen yseer l E e5de 2/3 wl f e5de 1/3
+        ya3ne 3atoul badak tentebh ta3mel 3adad l weightsum 3ala 3ada l 5aleya le 3andak bas testa3mel l weight ma3 l span
+
+-->
+    <TableRow
+        android:id="@+id/row0"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="50sp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="#B82054"
+            android:text="A" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="50sp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="#2196F3"
+            android:text="B" />
+
+        <Button
+            android:id="@+id/buttonC"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="50sp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="#13A719"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/buttonD"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="50sp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="#C4B10A"
+            android:text="D" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonE"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#3C0A96"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:layout_span="2"
+            android:textSize="50sp"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/buttonF"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#13B6CB"
+            android:textSize="50sp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="F" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonG"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#1B39E4"
+            android:textSize="50sp"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:text="G" />
+
+        <Button
+            android:id="@+id/buttonH"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#D68917"
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:layout_margin="8dp"
+            android:text="H" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row5"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonI"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="50sp"
+            android:layout_margin="8dp"
+            android:background="#EE2A1C"
+            android:text="I" />
+
+
+    </TableRow>
+
+
+</TableLayout>
